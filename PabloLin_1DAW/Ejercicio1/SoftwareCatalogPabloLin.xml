@@ -1,0 +1,55 @@
+<!--
+Nombre: Pablo Lin
+Curso: DAW1
+Fecha: 24/03/2025
+Ejercicio: Catálogo softwares
+-->
+<catalogo>
+<!--Software de sistemas operativos-->
+    <os>
+        <software>
+            <nombre>Windows 11</nombre>
+            <version>Rama 24H2, Versión 24H2 (10.0.26100.3476)</version>
+            <desarrollador>Microsoft</desarrollador>
+            <url>https://es.wikipedia.org/wiki/Windows_11</url>            
+        </software>
+
+        <software>
+            <nombre>Ubuntu</nombre>
+            <version>Ubuntu 24.04 LTS Noble Numbat</version>
+            <desarrollador>Canonical Ltd.</desarrollador>
+            <url>https://ubuntu.com/</url> 
+        </software>
+
+        <software>
+            <nombre>Mac OS</nombre>
+            <version>Mac OS 14 Sonoma</version>
+            <desarrollador>Apple</desarrollador>
+            <url>https://es.wikipedia.org/wiki/Mac_OS</url> 
+        </software>
+    </os>
+
+<!--Software de aplicaciones de oficina-->
+    <office>
+        <software>
+            <nombre>Microsoft office 365</nombre>
+            <version>Version 2502 (Build 18526.20168)</version>
+            <desarrollador>Microsoft</desarrollador>
+            <url>https://www.microsoft.com/es-es/microsoft-365/microsoft-365-business</url> 
+        </software>
+
+        <software>
+            <nombre>Adobe Acrobat</nombre>
+            <version>24.005.20421</version>
+            <desarrollador>Adobe</desarrollador>
+            <url>https://es.wikipedia.org/wiki/Adobe_Acrobat</url> 
+        </software>
+
+        <software>
+            <nombre>Dropbox</nombre>
+            <version>194.4.6267</version>
+            <desarrollador>Dropbox Inc</desarrollador>
+            <url>https://www.dropbox.com/</url> 
+        </software>
+    </office>
+</catalogo>

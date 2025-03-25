@@ -1,0 +1,32 @@
+<!--
+Nombre: Pablo Lin
+Curso: DAW1
+Fecha: 24/03/2025
+Ejercicio: Conflictos HTML-XML
+-->
+
+<!--Uso de name space para evitar conflictos entre el html y el xml-->
+<html
+    xmlns:book="https://www.book.com"
+>
+  <head><title>Book Review</title></head> 
+    <body> 
+      <book:bookreview> 
+        <title>Introducción a XML</title> 
+            <table> 
+                <tr align="center"> 
+                    <td>Author</td> 
+                    <td>Price</td> 
+                    <td>Pages</td> 
+                    <td>Date</td> 
+                </tr> 
+                <tr align="left"> 
+                    <td><book:author>Simon St. Laurent</book:author></td> 
+                    <td><book:price>31.98</book:price></td> 
+                    <td><book:pages>352</book:pages></td> 
+                    <td><book:date>1998/01</book:date></td> 
+                </tr> 
+            </table> 
+        </book:bookreview> 
+    </body> 
+</html> 
